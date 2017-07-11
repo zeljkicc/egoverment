@@ -1,0 +1,42 @@
+{
+  "name": "egovermentproject",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.20.0",
+    "bcrypt": "^1.0.2",
+    "draft-convert": "^1.4.6",
+    "draft-js": "^0.10.1",
+    "is-property": "^1.0.2",
+    "leaflet": "^1.0.3",
+    "material-ui": "^0.18.1",
+    "medium-draft": "^0.5.2",
+    "meteor-node-stubs": "~0.2.4",
+    "react": "^15.5.4",
+    "react-addons-css-transition-group": "^15.5.2",
+    "react-countdown-clock": "^1.1.0",
+    "react-dom": "^15.5.4",
+    "react-grid-system": "^2.9.1",
+    "react-leaflet": "^1.1.7",
+    "react-md-spinner": "^0.2.3",
+    "react-mounter": "^1.2.0",
+    "react-quill": "^1.0.0-rc.3",
+    "react-swipeable-views": "^0.12.3",
+    "react-tap-event-plugin": "^2.0.1"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "babel": {
+    "plugins": [
+      "transform-class-properties"
+    ]
+  }
+}
